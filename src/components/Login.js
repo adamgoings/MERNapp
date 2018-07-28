@@ -42,6 +42,7 @@ class Login extends Component {
     const { username, password, message } = this.state;
     return (
       <div class="container">
+      
         <form class="form-signin" onSubmit={this.onSubmit}>
           {message !== '' &&
             <div class="alert alert-warning alert-dismissible" role="alert">
